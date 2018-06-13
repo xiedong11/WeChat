@@ -32,3 +32,24 @@
 .section_gap {
   padding: 0 30rpx;
 }
+.list_image{
+  width: 150px;
+  height: 100px;
+}
+.list_text{
+  width: 100%;
+  margin-left: 12px;
+  color: #aaa;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  
+}
+.list_container{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #fff;
+  width: 100%;
+}

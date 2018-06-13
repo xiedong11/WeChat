@@ -10,8 +10,14 @@
           </swiper-item>
         </block>
       </swiper>
-
     </view>
 
   </view>
+  <text class='list_text'>热门TOP</text>
+  <block wx:for="{{[1, 2, 3,4,5,6]}}">
+    <view class='list_container'>
+      <image class="list_image" src='https://pic3.zhimg.com/v2-e65ac9c2ce5f4555f5e4b95429cc23d9_1200x500.jpg'></image>
+      <text class='list_text'>热门TOP列表排行榜</text> </view>
+
+  </block>
 </view>
