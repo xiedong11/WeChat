@@ -1,8 +1,8 @@
 {
   "pages":[
-    "pages/index/index",
+    "pages/tab/home/home",
     "pages/logs/logs",
-    "pages/index/tab/main"
+    "pages/tab/mine/mine"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -18,7 +18,7 @@
       {
         "iconPath":"pages/images/ic_tab_home.png",
         "selectedIconPath":"pages/images/ic_tab_home_select.png",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/tab/home/home",
         "text": "首页"
       },
       {
@@ -30,7 +30,7 @@
       {
         "iconPath": "pages/images/ic_tab_mine_normal.png",
         "selectedIconPath": "pages/images/ic_tab_mine_select2.png",
-        "pagePath": "pages/index/tab/main",
+        "pagePath": "pages/tab/mine/mine",
         "text": "个人中心"
       }
     ]
