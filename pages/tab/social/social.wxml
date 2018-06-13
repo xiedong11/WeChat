@@ -1,10 +1,9 @@
 <view class="page__bd">
 
-  <block wx:for="{{[1, 2, 3,4,5,6]}}">
+  <block wx:for="{{[1, 2, 3,4,5,6,7,8]}}">
     <view class='list_container'>
-     <text class='list_text'>全民狂欢日</text> </view>
-
-      <image class="list_image" src='https://img.alicdn.com/tfs/TB13BDNxgmTBuNjy1XbXXaMrVXa-990-500.png_1080x1800Q90.jpg'></image>
-     
+      <text class='list_text'>全民狂欢日</text> 
+    <image class="list_image" src='https://img.alicdn.com/tfs/TB13BDNxgmTBuNjy1XbXXaMrVXa-990-500.png_1080x1800Q90.jpg'></image>
+    </view>
   </block>
 </view>
