@@ -2,7 +2,8 @@
   "pages":[
     "pages/tab/home/home",
     "pages/logs/logs",
-    "pages/tab/mine/mine"
+    "pages/tab/mine/mine",
+    "pages/tab/social/social"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -24,8 +25,8 @@
       {
         "iconPath": "pages/images/ic_tab_social_normal.png",
         "selectedIconPath": "pages/images/ic_tab_social_select.png",
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "pagePath": "pages/tab/social/social",
+        "text": "动态"
       },
       {
         "iconPath": "pages/images/ic_tab_mine_normal.png",
