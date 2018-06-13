@@ -1,11 +1,40 @@
 /**index.wxss**/
+
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.img{
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.setting_item {
   display: flex;
- 
+  flex-direction: row;
+  justify-content: space-between;
+  background: #fff;
+  width: 100%;
+}
+
+.setting_text {
+  height: 50px;
+  line-height: 50px;
+  margin-left: 12px;
+  color: #aaa;
+  align-items: center;
+}
+
+.setting_img {
+  width: 28px;
+  height: 28px;
+  margin: 20rpx;
 }
