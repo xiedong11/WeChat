@@ -1,0 +1,4 @@
+<view class='root_view'>
+  <text class="text">{{title}}</text>
+  <image src='{{url}}' class="image"></image>
+</view>

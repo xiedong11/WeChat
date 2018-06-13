@@ -3,7 +3,8 @@
     "pages/tab/home/home",
     "pages/logs/logs",
     "pages/tab/mine/mine",
-    "pages/tab/social/social"
+    "pages/tab/social/social",
+    "pages/detail/detail"
   ],
   "window":{
     "backgroundTextStyle":"light",
