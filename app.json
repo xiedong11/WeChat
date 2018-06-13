@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/tab/main"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "曲园帮",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath":"pages/images/ic_tab_home.png",
+        "selectedIconPath":"pages/images/ic_tab_home_select.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "pages/images/ic_tab_social_normal.png",
+        "selectedIconPath": "pages/images/ic_tab_social_select.png",
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "iconPath": "pages/images/ic_tab_mine_normal.png",
+        "selectedIconPath": "pages/images/ic_tab_mine_select2.png",
+        "pagePath": "pages/index/tab/main",
+        "text": "个人中心"
+      }
+    ]
+  }
+  
+  
+}
